@@ -1,4 +1,4 @@
-x = float(input("Nhập số x:"))
+x = int(input("Nhập số x:"))
 if x == int(x):
     x = int(x)
 he_so = list(map(int, input().split()))

@@ -9,6 +9,6 @@ def tim_vi_tri_tu(chuoi, tu_muc_tieu):
     else:
         return ket_qua
 chuoi = input("Nhập chuỗi:")
-tu_muc_tieu = input("Nhập từ cần tìm:")
+tu_muc_tieu = input("Nhập từ mục tiêu:")
 ket_qua = tim_vi_tri_tu(chuoi, tu_muc_tieu)
 print(ket_qua)
